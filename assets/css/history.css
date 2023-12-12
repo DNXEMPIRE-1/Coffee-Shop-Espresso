@@ -1,0 +1,139 @@
+ body {
+background-color: #f7f7f7;
+}
+
+
+.order_cards .show-cart li {
+  display: flex;
+}
+.order_cards .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* border: 0.5px groove ; */
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 10px;
+
+  }
+.order_cards .card {
+  margin-bottom: 20px;
+  /*box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);*/
+
+}
+.order_cards .cardpending {
+  background-color: #fff5b7;
+  margin-bottom: 20px;
+}
+.order_cards .carddelivered {
+  background-color:#4aa96c;
+  margin-bottom: 20px;
+}
+
+
+.order_cards .card-img-top {
+  display: inline-block;
+  align-self: top left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.order_cards .card-title{
+  display:inline-block;
+}
+.order_cards .header{
+  text-transform: uppercase;
+font-size: small;
+letter-spacing: 0.2rem;
+margin: 10px;
+font-weight: 500;
+color: rgb(105, 105, 105);
+font-family: Okra,Helvetica,sans-serif;
+}
+.order_cards .content{
+  width:inherit;
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    margin: -10px;
+    padding-left:25px;
+    font-size:large;
+}
+
+#modal-items{
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#modal-items th{
+  font-weight: 500;
+}
+
+#modal-items li table thead tr th{
+  font-weight: bold;
+  font-size: large;
+}
+
+#modal-items td{
+  font-weight: 600;
+}
+
+.modal-body th{
+  padding-right: 10px;
+}
+
+.modal-button{
+  text-align: end;
+}
+.modal-button button{
+  margin: 10px;
+  border-radius: 0.6rem;
+  padding: 7.5px 15px;
+  margin-top: 0px
+}
+/* .order_cards .button{
+  display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: inherit;
+    transition: transform 0.4s ease 0s;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+    font-weight: 300;
+    color: rgb(237, 90, 107);
+    position:relative; left:160px; top:2px;
+} */
+
+.hidden-data{
+  display: none;
+}
+
+.order_cards  div#card-a{
+  width: 20rem;
+  border-width: 5px;
+  /* border-color:#206a5d;*/
+   /*background-color:#c6ffc1;*/
+}
+.order_cards div#card-b{
+width: 20rem;
+ border-width: 3px;
+ /* border-color:#ffd56b;*/
+  background-color:#edffa9;
+}
+.order_cards div#card-c{
+width: 20rem;
+ border-width: 5px;
+ /* border-color:#ff9a8c;*/
+   background-color:#fbecec;
+}
